@@ -18,15 +18,4 @@ html,
 body
 {
   background: linear-gradient(90deg, #fffbd5, #b21f1f) !important;
-  },
-.view {
-    height: 100%;
-}
-
-.view {
-    background: url("this_is_home_horizantal_laurels.jpg")no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
+  }
