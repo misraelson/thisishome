@@ -31,9 +31,20 @@
       </div>
       <div id="navbar" class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
-          <li class="active"><%= link_to 'Home', root_path %></li>
+          <li> <a href=""> <i class="fa fa-film fa-inverse fa-2x" aria-hidden="true"></i> </a> </li>
+          <li><%= link_to 'Home', root_path %></li>
           <li><%= link_to 'About', about_show_path %></li>
-          <li><%= link_to 'Awards' %></li>
+          <li><%= link_to 'Awards', awards_show_path %></li>
+          <li><%= link_to 'Screenings', screenings_show_path %></li>
+          <li><%= link_to 'Screenshots', screenshots_show_path %></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="https://twitter.com/redlinemediainc?lang=en" <%= fa_icon 'twitter inverse 2x' %> </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/red.line.media/" class="fa fa-instagram fa-2x"></a>
+          </li>
         </ul>
       </div>
     </div>
